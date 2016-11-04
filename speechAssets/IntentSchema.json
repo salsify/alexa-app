@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "intent": "GetProductIntent",
+      "slots": [
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "property",
+          "type": "LIST_OF_PROPERTIES"
+        }
+      ]
+    },
+    {
+      "intent": "GetNextEventIntent",
+      "slots": [
+        {
+          "name": "property",
+          "type": "LIST_OF_PROPERTIES"
+        }
+      ]
+    },
+    {
+      "intent": "GetProductFilterIntent",
+      "slots": [
+        {
+          "name": "productName",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "property",
+          "type": "LIST_OF_PROPERTIES"
+        },
+        {
+          "name": "propertyValue",
+          "type": "PROPERTY_VALUES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

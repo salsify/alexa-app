@@ -1,0 +1,19 @@
+GetProductIntent about product {number}
+GetProductIntent about skew {number}
+GetProductIntent about item {number}
+
+GetProductIntent about the {property} of item {number}
+GetProductIntent about the {property} of skew {number}
+GetProductIntent about the {property} of product {number}
+
+GetNextEventIntent yes what about the {property}
+
+
+GetProductFilterIntent what {blankets|productName} there are
+GetProductFilterIntent yes I want the {property} to be {propertyValue}
+
+
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you
